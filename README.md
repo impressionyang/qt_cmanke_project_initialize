@@ -6,7 +6,7 @@
 
 ## 示例项目结构
 
-````shell
+````bash
 ProjectName               		#项目目录
 ├── CMakeLists.txt      		#项目根目录CMakeLists.txt配置文件
 └── src                 		#源码目录
@@ -39,5 +39,5 @@ sudo chmod +x setup.sh
 ./setup
 ```
 
-### 将完成的项目目录拷贝至你的工作目录下进行编程即可
+### 将当前新生成的项目目录拷贝至你的工作目录下进行编程即可
 
