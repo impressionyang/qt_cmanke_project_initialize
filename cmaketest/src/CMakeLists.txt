@@ -45,6 +45,6 @@ file(GLOB_RECURSE RESOURCES "*.qrc")
 add_executable(${TARGET_NAME} ${SOURCES} ${HEADERS} ${FORMS} ${RESOURCES})
 
 #add QT5 dependes
-target_link_libraries(${TARGET_NAME} PRIVATE Qt5::Core Qt5::Widgets Qt5::Gui Qt5::Network Qt5::DBus Qt5::Sql)
+target_link_libraries(${TARGET_NAME} PUBLIC Qt5::Core Qt5::Widgets Qt5::Gui Qt5::Network Qt5::DBus Qt5::Sql)
 #qt5_use_modules(${TARGET_NAME} ${QT})
 
