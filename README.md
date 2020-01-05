@@ -10,13 +10,13 @@
 ProjectName               		#项目目录
 ├── CMakeLists.txt      		#项目根目录CMakeLists.txt配置文件
 └── src                 		#源码目录
-	├──utilities				#次级原码目录
-	|	├── CMakeLists.txt		#次级源码目录CMakeLists.txt配置文件
-	|	├── util.h				#其他次级源码
-	|	├──	util.cpp			#其他次级源码
-	|	├── ...					#其他次级源码
-	|	└──	log.cpp				#其他次级源码
-	|	...						#其他次级原码目录
+    ├──utilities				#次级原码目录
+    |	├── CMakeLists.txt		#次级源码目录CMakeLists.txt配置文件
+    |	├── util.h				#其他次级源码
+    |	├──	util.cpp			#其他次级源码
+    |	├── ...					#其他次级源码
+    |   └──	log.cpp				#其他次级源码
+    |	...						#其他次级原码目录
     ├── CMakeLists.txt  		#源码目录CMakeLists.txt配置文件
     ├──	main.cpp        		#程序入口
     ├── ...						#其他项目文件
